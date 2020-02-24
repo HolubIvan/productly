@@ -1,0 +1,21 @@
+.promo {
+
+    padding: 3rem 0;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content{
+        padding-right: 6.5rem;
+    }
+
+    &__buttons{
+
+        .button{
+            margin-right: 4.4rem;
+        }
+    }
+}

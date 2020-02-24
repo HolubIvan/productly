@@ -1,0 +1,10 @@
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "Project using Sass and BEM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass sass/main.scss sass/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HolubIvan/productly.git"
+  },
+  "author": "Ivan Holub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HolubIvan/productly/issues"
+  },
+  "homepage": "https://github.com/HolubIvan/productly#readme",
+  "dependencies": {
+    "sass": "^1.25.0"
+  }
+}
