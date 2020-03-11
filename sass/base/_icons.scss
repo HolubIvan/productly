@@ -1,0 +1,64 @@
+.ico {
+    cursor: pointer;
+
+    &_play{
+        background-image: url('../../img/icons/Triangle.png');
+        height: 19px;
+        width: 18px;
+        display: inline-block;
+        margin-right: 9px;
+    }
+
+    &-arrow{
+        background-image: url(../../img/icons/arr.png);
+        width: 17px;
+        height: 17px;
+        background-repeat: no-repeat;
+    }
+
+    &-snake{
+        background-image: url(../../img/icons/snake.png);
+        width: 17px;
+        height: 17px;
+        background-repeat: no-repeat;
+    }
+
+    &-heart{
+        background-image: url(../../img/icons/heart.png);
+        width: 17px;
+        height: 17px;
+        background-repeat: no-repeat;
+    }
+
+    &-time{
+        background-image: url(../../img/icons/time.png);
+        width: 17px;
+        height: 17px;
+        background-repeat: no-repeat;
+    }
+}
+
+.icon-square{
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &_yellow{
+        background-color: $color-yellow;
+    }
+
+    &_red{
+        background-color: $color-red;
+    }
+
+    &_blue{
+        background-color: $color-blue;
+    }
+
+    &_violet{
+        background-color: $color-violet;
+    }
+}

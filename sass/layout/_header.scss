@@ -23,20 +23,3 @@
     }
 
 }
-
-.navigation {
-    display: flex;
-    font-size: 1.5rem;
-    line-height: 2.8rem;
-
-     
-    &__link{
-        list-style: none;
-        padding: 0 10px;
-        cursor: pointer;
-
-        & a {
-            text-decoration: none;
-        }
-    }
-}

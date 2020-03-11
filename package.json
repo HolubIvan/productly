@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HolubIvan/productly#readme",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "sass": "^1.25.0"
   }
 }
