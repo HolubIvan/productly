@@ -1,0 +1,48 @@
+.footer{
+    @include media-mobile{
+        padding: 31px 0;
+    }
+
+    &__wrapper{
+        display: flex;
+        padding-top: 50px;
+        @include media-tablet{
+            flex-direction: column;
+        }
+    }
+
+    &-navigation{
+        flex-grow: 1;
+        padding-left: 15rem;
+        @include media-tablet{
+            padding-left: 0;
+            margin-top: 34px;
+        }
+        @include media-mobile{
+            flex-direction: column;
+        }
+
+        &__title{
+            margin: 0 0 15px;
+        }
+
+        &__links{
+            @extend %font-add;
+            list-style: none;
+            
+            a {
+                text-decoration: none;
+                @extend %transition;
+                @include font($size: 1.6rem, $height: 3.5rem, $weight: normal);
+                color: $color-text;
+
+
+                &:hover{
+                    color: $color-primary;
+                }
+            }
+
+            
+        }
+    }
+}

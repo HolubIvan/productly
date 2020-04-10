@@ -23,7 +23,9 @@ body {
 h1 {
 	@extend %font-add;
 	@include font($size: 4.4rem, $height: 5.4rem); 
-	
+	@include media-mobile{
+		@include font($size: 3.2rem, $height: 4.2rem); 
+	}
 }
 
 h2 {
@@ -33,6 +35,9 @@ h2 {
 	line-height: 46px;
 	text-align: center;
 	@include font($size: 3.4rem, $height: 4.6rem);
+	@include media-mobile{
+		@include font($size: 2.3rem, $height: 3.3rem); 
+	}
 }
 h3 {
 	font-style: normal;
@@ -40,6 +45,9 @@ h3 {
 	font-size: 24px;
 	line-height: 34px;
 	@include font($size: 2.4rem, $height: 3.4rem);
+	@include media-mobile{
+		@include font($size: 2.1rem, $height: 3.1rem); 
+	}
 }
 
 h4 {

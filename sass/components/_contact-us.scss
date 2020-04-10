@@ -1,6 +1,22 @@
 .contact-us {
     background-color: $color-background;
-    padding: 62px 82px;
+    padding: 62px 0;
+    @include media-tablet{
+        text-align: center;
+    }
+
+    &-container{
+        @include media-tablet{
+            flex-direction: column;
+        }
+    }
+
+    &__content{
+        @include media-tablet{
+            max-width: 100%;
+            margin-bottom: 52px;
+        }
+    }
 
     &__form{
         input,
@@ -24,11 +40,34 @@
 
     &__line{
         margin-bottom: 19px;
+        @include media-mobile{
+            flex-direction: column;
+            margin-bottom: 0;
+            >*{
+                margin-bottom: 19px;
+            }
+        }
     }
 
     &__button{
         >*{
             min-width: 117px;
+        }
+        @include media-mobile{
+            margin-top: 24px;
+        }
+    }
+    p{
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: $color-text;
+        &:hover{
+            text-decoration: underline;
+            color: $color-primary;
         }
     }
 }

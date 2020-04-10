@@ -1,9 +1,27 @@
+.strategy-wrapper{
+    >*{
+        margin-bottom: 30px;
+        @include media-tablet{
+            flex-basis: 48%;
+        }
+        @include media-mobile{
+            flex-basis: 100%;
+        }
+    }
+}
+
 .strategies{
     padding: 30px 0;
+    @include media-tablet{
+        text-align: center;
+    }
 
     &__title{
         margin: 0 0 14px;
         text-align: left;
+        @include media-tablet{
+            text-align: center;
+        }
     }
 
     &__description{
@@ -12,17 +30,37 @@
 
     &__tags{
         margin-bottom: 31px;
+        @include media-tablet{
+            justify-content: center;
+        }
     }
 }
 
-.strategy-wrapper{
-    >*{
-        margin-bottom: 30px;
+.strategy{
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    @include media-tablet{
+        overflow: hidden;
+    }
+
+    &__name{
+        margin: 0 0 29px;
+        text-align: left;
+        flex-grow: 1;
+    }
+
+    &__image{
+
     }
 }
 
 .strategy__content{
     padding: 24px 33px 26px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 
     h3{
         margin: 0 0 29px;

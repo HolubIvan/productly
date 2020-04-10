@@ -1,0 +1,52 @@
+.about-us{
+    padding: 30px 0 100px 0;
+
+    &__title{
+        margin: 0 0 14px;
+    }
+
+    &__description{
+        margin: 0 0 45px;
+    }
+}
+
+.employee {
+    display: flex;
+    padding: 35px;
+    position: relative;
+    width: calc(30%-32px);
+
+    &__content{
+    }
+
+    &__name{
+        margin: 0;
+    }
+
+    &__contact{
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: $color-link;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__title{
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    &__photo{
+        width: 98px;
+        height: 98px;
+        border-radius: 50%;
+        position: absolute;
+        top: 32px;
+        right: -40px;
+        box-shadow: 0px 15px 30px rgba(0,0,0, .15);
+    }
+}
