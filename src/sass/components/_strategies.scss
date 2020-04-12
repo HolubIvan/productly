@@ -44,6 +44,10 @@
     @include media-tablet{
         overflow: hidden;
     }
+    &_hidden{
+        display: none !important;
+    }
+
 
     &__name{
         margin: 0 0 29px;

@@ -10,6 +10,7 @@
     border-radius: 90px;
     padding: 10px 15px;
     @include font($size: 1.3rem, $height: 2.8rem, $weight: normal);
+    cursor: pointer;
 
     &_selected{
         background-color: $color-primary;

@@ -1034,6 +1034,7 @@ h5 {
   line-height: 2.8rem;
   font-weight: normal;
   font-style: normal;
+  cursor: pointer;
 }
 .tag_selected {
   background-color: #FF9900;
@@ -1210,6 +1211,11 @@ h5 {
 }
 .layout-3-column > * {
   flex-basis: 30%;
+}
+.layout-3-column:after {
+  content: "";
+  display: block;
+  width: 30%;
 }
 
 .layout-2-column {
@@ -1549,6 +1555,9 @@ h5 {
   .strategy {
     overflow: hidden;
   }
+}
+.strategy_hidden {
+  display: none !important;
 }
 .strategy__name {
   margin: 0 0 29px;
